@@ -27,6 +27,10 @@ class PizzaStoreAdapter(
         }
         val row = tempRow!!
 
+        val data = mList[position]
+
+        val imgLogo = row.findViewById<ImgeView>(R.id.imgLogo)
+        val txtStoreName = row.findViewById<textView>(R.id.txtStoreName)
         return row
 
     }
