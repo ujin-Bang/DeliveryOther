@@ -48,7 +48,7 @@ class ViewStoreDetailActivity : AppCompatActivity() {
 
             TedPermission.creater()
                 .setPermissionlistener(pl)
-                .setPermissions(Mainfest.permission.CALL_PHONe)
+                .setPermissions(Mainfest.permission.CALL_PHONE)
                 .check()
 
         }
