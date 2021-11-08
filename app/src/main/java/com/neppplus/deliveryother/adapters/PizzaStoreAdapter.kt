@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ImageView
+import android.widget.TextView
 import com.bumptech.glide.Glide
 import com.neppplus.deliveryother.R
 import com.neppplus.deliveryother.datas.StoreData
@@ -30,12 +32,13 @@ class PizzaStoreAdapter(
 
         val data = mList[position]
 
-        val imgLogo = row.findViewById<ImgeView>(R.id.imgLogo)
-        val txtStoreName = row.findViewById<textView>(R.id.txtStoreName)
+        val imgLogo = row.findViewById<ImageView>(R.id.imgLogo)
+        val txtStoreName = row.findViewById<TextView>(R.id.txtStoreName)
+
 
         txtStoreName.text = data.name
 
-        Glide.with(mContext).load(data.logoURL).
+        Glide.with(mContext).load(data.logoURL).into(imgLogo)
         return row
 
     }
