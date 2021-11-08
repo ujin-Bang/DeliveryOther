@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.neppplus.deliveryother.R
 
-class PizzaStoreListFragment : Fragment() {
+class MyProfilFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -15,7 +15,7 @@ class PizzaStoreListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        return inflater.inflate(R.layout.fragment_my_profilt, container, false)
+        return inflater.inflate(R.layout.fragment_pizza_store_list, container, false)
 
     }
 

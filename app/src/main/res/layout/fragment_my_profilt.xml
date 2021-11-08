@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="내 프로필 프래그먼트"
+        android:text="피자 가게 목록 프래그먼트"
         android:textSize="20sp"/>
 
 </LinearLayout>
