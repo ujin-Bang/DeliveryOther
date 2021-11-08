@@ -14,14 +14,14 @@ import kotlinx.android.synthetic.main.fragment_my_profilt.*
 class MyProfilFragment : Fragment() {
 
 
-    val REQ_CODE_NICKNAME
+    val REQ_CODE_NICKNAME = 1000
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 
-        return inflater.inflate(R.layout.fragment_pizza_store_list, container, false)
+        return inflater.inflate(R.layout.fragment_my_profilt, container, false)
 
     }
 
@@ -33,7 +33,7 @@ class MyProfilFragment : Fragment() {
         btnEdtNickName.setOnClickListener {
 
             val myIntet = Intent(requireContext(),EditNicknameActivity::class.java)
-            startActivityForResult(myIntet.REQ_CODE_NICKNAME)
+            startActivityForResult(myIntet,REQ_CODE_NICKNAME)
         }
     }
 

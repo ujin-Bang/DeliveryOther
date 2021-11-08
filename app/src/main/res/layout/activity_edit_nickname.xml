@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".EditNicknameActivity">
 
     <EditText
         android:id="@+id/edtNewNickname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="새 닉네임 입력"
+        android:hint="새 닉네임 입력"
         android:singleLine="true"/>
 
     <Button

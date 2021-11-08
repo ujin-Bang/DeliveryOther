@@ -1,5 +1,6 @@
 package com.neppplus.deliveryother
 
+import android.Manifest
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +8,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.gun0912.tedpermission.PermissionListener
+import com.gun0912.tedpermission.normal.TedPermission
 import com.neppplus.deliveryother.datas.StoreData
 import kotlinx.android.synthetic.main.activity_view_store_detail.*
 
@@ -46,9 +48,9 @@ class ViewStoreDetailActivity : AppCompatActivity() {
 
             }
 
-            TedPermission.creater()
-                .setPermissionlistener(pl)
-                .setPermissions(Mainfest.permission.CALL_PHONE)
+            TedPermission.create()
+                .setPermissionListener(pl)
+                .setPermissions(Manifest.permission.CALL_PHONE)
                 .check()
 
         }
