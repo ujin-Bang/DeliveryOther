@@ -3,9 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/NePPPlus_006/AndroidStudioProjects/DeliveryOther/app/src/main/res/layout/activity_main.xml" value="0.4281742354031511" />
-        <entry key="..\:/Users/NePPPlus_006/AndroidStudioProjects/DeliveryOther/app/src/main/res/layout/name_pizza.xml" value="0.1" />
-        <entry key="..\:/Users/NePPPlus_006/AndroidStudioProjects/DeliveryOther/app/src/main/res/layout/pizza_other.xml" value="0.1" />
+        <entry key="..\:/Users/NePPPlus_006/AndroidStudioProjects/DeliveryOther/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/NePPPlus_006/AndroidStudioProjects/DeliveryOther/app/src/main/res/layout/fragment_pizza_store_list.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>
